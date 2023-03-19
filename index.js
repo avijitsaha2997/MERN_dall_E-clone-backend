@@ -8,7 +8,7 @@ import dalleRoutes from "./routes/dalleRoutes.js"
 
 dotenv.config();
 
-const port = 8001;
+const port = 8080;
 const app = express();
 
 app.use(cors());
